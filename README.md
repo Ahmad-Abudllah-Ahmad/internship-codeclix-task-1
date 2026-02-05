@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EchoSee - AI-Powered Smart Glasses Website
 
-## Getting Started
+Revolutionary AR smart glasses that transform speech into real-time subtitles. Empowering the hearing-impaired community with seamless communication through AI technology.
 
-First, run the development server:
+## 🚀 Features
+
+- **Modern UI/UX**: Beautiful, responsive design with animated SVG backgrounds
+- **AI-Powered Chatbot**: Integrated AI assistant using Groq/Llama for customer support
+- **Performance Optimized**: Fast loading with lazy loading, caching, and compression
+- **Fully Responsive**: Works seamlessly on all devices
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with React 19
+- **Styling**: Pure CSS with CSS Variables
+- **AI Integration**: Groq API with Llama 3.3-70b model
+- **Fonts**: Inter (Google Fonts)
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/Ahmad-Abudllah-Ahmad/internship-codeclix-task-1.git
+
+# Navigate to the project
+cd internship-codeclix-task-1
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Create a `.env.local` file with the following:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+GROQ_API_KEY=your_groq_api_key_here
+```
 
-## Learn More
+## 📄 Pages
 
-To learn more about Next.js, take a look at the following resources:
+- **Home** - Landing page with hero section and features
+- **About** - Company information and mission
+- **Product** - EchoSee smart glasses details
+- **Pricing** - Basic and Premium plans
+- **Contact** - Contact form and information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Design Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Animated glowing SVG background lines
+- Smooth animations and transitions
+- Dark theme with orange accent colors
+- Professional typography
 
-## Deploy on Vercel
+## 📧 Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For inquiries, visit our website or use the AI chatbot for instant assistance.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+**Built with ❤️ for Codecelix Internship Task 1**
